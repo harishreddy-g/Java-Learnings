@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Switch {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number between 0 to 5");
+        int num = input.nextInt();
+        switch(num){
+            case 0:
+                System.out.println("You entered zero");
+                break;
+            case 1:
+                System.out.println("You entered one");
+                break;
+            case 2:
+                System.out.println("You entered two");
+                break;
+            case 3:
+                System.out.println("You entered three");
+                break;
+            case 4:
+                System.out.println("You entered four");
+                break;
+            case 5:
+                System.out.println("You entered five");
+                break;
+            default:
+                System.out.println("Invalid input! Please enter a number between 0 to 5.");
+
+        }
+        input.close();
+
+    }
+}
