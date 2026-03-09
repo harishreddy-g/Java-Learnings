@@ -14,5 +14,12 @@ public class multiarray {
 
         int arr5[][];// alternative way of decleration
 
+        // jagged array
+        int[][] arr6 = new int[3][];  // 3 rows, columns not defined yet
+
+arr6[0] = new int[2];  // row 0 → 2 columns
+arr6[1] = new int[4];  // row 1 → 4 columns
+arr6[2] = new int[3];  // row 2 → 3 columns
+
     }
 }
