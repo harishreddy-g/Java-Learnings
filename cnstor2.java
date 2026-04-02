@@ -20,7 +20,7 @@ class worker {
 
 public class cnstor2 {
     public static void main(String[] args) {
-        worker a =new worker();
+        worker a = new worker();
         worker b = new worker("harish reddy");
         worker c = new worker("harish reddy", 20);
     }
