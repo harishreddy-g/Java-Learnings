@@ -6,7 +6,7 @@ class priorityQ {
     PriorityQueue<Integer> pq = new PriorityQueue<>();
 
     void add(int x) {
-        pq.add(x);
+        pq.add(x); // or pq.offer(x);
     }
 
     void remove() {
