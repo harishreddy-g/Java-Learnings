@@ -1,53 +1,69 @@
 package LIST;
+
 import java.util.*;
- class vectorInbuilt{
+
+class vectorInbuilt {
     Vector<Integer> vector = new Vector<>();
-    void add(int x){
+
+    void add(int x) {
         vector.add(x);
     }
-    void addAt(int index , int x){
-        vector.add(index , x);
+
+    void addAt(int index, int x) {
+        vector.add(index, x);
     }
-    void set(int index ,int x){
+
+    void set(int index, int x) {
         vector.set(index, x);
     }
-    void get( int index){
+
+    void get(int index) {
         System.out.println(vector.get(index));
     }
-    void remove(int x){
+
+    void remove(int x) {
         vector.remove(Integer.valueOf(x));
     }
-    void removeAt(int index){
+
+    void removeAt(int index) {
         vector.remove(index);
     }
-    void sortAscending(){
+
+    void sortAscending() {
         Collections.sort(vector);
     }
-    void sortDescending(){
-        Collections.sort(vector , Collections.reverseOrder());
+
+    void sortDescending() {
+        Collections.sort(vector, Collections.reverseOrder());
     }
-    void getSize(){
+
+    void getSize() {
         System.out.println(vector.size());
     }
-    void firstElement(){
+
+    void firstElement() {
         System.out.println(vector.firstElement());
     }
-    void lastElement(){
+
+    void lastElement() {
         System.out.println(vector.lastElement());
     }
-    void removeAll(){
+
+    void removeAll() {
         vector.clear();
     }
-    void removeFirst(){
+
+    void removeFirst() {
         vector.remove(0);
     }
-    void removeLast(){
+
+    void removeLast() {
         vector.remove(vector.size() - 1);
     }
- }
+}
 
 public class vctor {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         vectorInbuilt vec = new vectorInbuilt();
         vec.add(5);
         vec.add(3);
