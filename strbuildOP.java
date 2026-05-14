@@ -19,7 +19,7 @@ class buildOP{
         sb.setLength(length);
     }
     void  printstring(){
-        if(sb.length()<+0){
+        if(sb.length()<=0){
             System.out.println("String is empty");
         }
         else{
