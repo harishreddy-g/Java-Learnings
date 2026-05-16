@@ -11,5 +11,6 @@ public class NestArray {
         arr.add(Arrays.asList(1, 1, 1));
 
         System.out.println(arr);
+        System.out.println(arr.get(0).get(1));
     }
 }
